@@ -1,0 +1,48 @@
+input , textarea{
+    outline: none;
+    border: none;
+    background: transparent;
+}
+input:disabled {
+    cursor: no-drop;
+}
+.input {
+    width: 12.5rem;
+    margin-top: 0.1875rem;
+    /* padding: 15px; */
+    border-radius: 8px;
+    border: solid 1px #828282;
+}
+.input:hover , .hover  {
+    border: solid 1px #333;
+}
+.input:focus-within , .focus-within {
+    border: solid 1px #2962FF;
+}
+
+.error , .error:hover, .error:focus-within  {
+    border: solid 1px red;
+}
+.labelError {
+    color: red;
+}
+.disabled{
+    width: 12.5rem;
+    margin-top: 0.1875rem;
+    padding: 15px;
+    border-radius: 8px;
+    border: solid 1px #E0E0E0;
+    background-color: #F2F2F2;
+    cursor: no-drop;
+}
+
+.sm {
+    padding: 0.4375rem;
+}
+.md {
+    padding: 0.9375rem;
+}
+.fullwidth {
+    width: 90vw;
+    padding: 0.5rem;
+}

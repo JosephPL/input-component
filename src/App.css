@@ -1,38 +1,46 @@
-.App {
-  text-align: center;
+@import url('https://fonts.googleapis.com/css2?family=Noto+Sans:wght@400;600&display=swap');
+@import url('Input.css');
+*{
+    font-family: 'Noto Sans';
+}
+body {
+    width: 95%;
+    margin: auto;
+    font-size: 16px;
+}
+h1{
+    color: #4F4F4F;
+}
+p{
+    color: #333333;
+    font-size: 0.75rem;
+}
+path {
+    color: #828282;
+}
+.row , .btnContainer{
+    display: flex;
+    flex-wrap: wrap;
+    margin-top: 20px;
+    margin-bottom: 20px;
+}
+.container {
+    width: 600px;
+    background-color: #fff;
+    padding-left: 50px;
 }
 
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
+.col1 {
+    width: 150px;   
+}
+.col2 {
+    width: 200px;
+}
+.col3 {
+    width: 300px;
 }
 
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
-  }
-}
-
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: center;
-  font-size: calc(10px + 2vmin);
-  color: white;
-}
-
-.App-link {
-  color: #61dafb;
-}
-
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
+.css-b62m3t-container{
+    margin-top: 10px;
+    width: 50%;
 }
