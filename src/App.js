@@ -73,8 +73,13 @@ function App() {
           <Input label='Label' text='<Input multiline row=”4” />' rows='4' placeholder='Placeholder'/>
         </div>
       </div>
-      
+
+      <footer>
+        <p className='textCenter'>created by <span>JosephPL</span> - devChallenges.io</p>
+      </footer>
     </div>
+
+    
   );
 }
 
